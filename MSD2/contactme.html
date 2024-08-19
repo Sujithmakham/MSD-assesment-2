@@ -1,0 +1,232 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        /* Base Styles */
+       
+    nav{
+      display: flex;
+      width: 84%;
+      margin: auto;
+      padding: 20px 0;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  nav ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+  }
+  nav ul li a{
+      text-decoration:none ;
+      color: rgb(200, 195, 195);
+      font-weight: bold;
+  }
+  nav ul li a:hover{
+      color: red;
+  
+  }
+        body, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container-1 {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header-2 {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .header-2 h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header-2 p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .contact-section-3 {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .contact-form-4 {
+            flex: 1 1 60%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form-4 h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .form-group-5 {
+            margin-bottom: 20px;
+        }
+
+        .form-group-5 label {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .form-group-5 input, 
+        .form-group-5 textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .form-group-5 textarea {
+            resize: vertical;
+            height: 150px;
+        }
+
+        .submit-button-6 {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-button-6:hover {
+            background-color: #0056b3;
+        }
+
+        .contact-info-7 {
+            flex: 1 1 35%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info-7 h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .info-item-8 {
+            margin-bottom: 20px;
+        }
+
+        .info-item-8 h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .info-item-8 p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .footer-9 {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .footer-9 p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav> 
+        <img src="C:\Users\makha\OneDrive\MSD\logo2.webp" width="100px" height="100px">
+        <ul>
+            <li> <a href="one.html">Home</a></li>
+            <li> <a href="about.html" target="main">About</a></li>
+            <li> <a href="portfolio.html">Projects</a></li>
+            <li> <a href="experience.html">Experience</a></li>
+            <li> <a href="contactme.html">Contact me</a></li>
+        </ul>
+    </nav>
+    <div class="container-1">
+        <header class="header-2">
+            <h1>Contact Me</h1>
+            <p> see the details below</p>
+        </header>
+        <section class="contact-section-3">
+            <div class="contact-form-4">
+                <h2>Send a Message</h2>
+                <form action="#" method="POST">
+                    <div class="form-group-5">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group-5">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group-5">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button-6">Send</button>
+                </form>
+            </div>
+            <aside class="contact-info-7">
+                <h2>Contact Information</h2>
+                <div class="info-item-8">
+                    <h3>Email</h3>
+                    <p>sujith.makham@example.com</p>
+                </div>
+                <div class="info-item-8">
+                    <h3>Phone</h3>
+                    <p>6301942180</p>
+                </div>
+                <div class="info-item-8">
+                    <h3>Location</h3>
+                    <p>old guntur , guntur</p>
+                </div>
+            </aside>
+        </section>
+    </div>
+
+    <footer class="footer-9">
+        <p>&copy; 2024 Sujith Makham </p>
+    </footer>
+</body>
+
+</html>
